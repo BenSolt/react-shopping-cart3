@@ -19,6 +19,8 @@ function App() {
 		setCart([...cart, item])
 	};
 
+	
+
 	return (
 		<ProductContext.Provider value={{products, addItem}}>
 			<div className="App">
